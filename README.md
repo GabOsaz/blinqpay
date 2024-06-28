@@ -2,6 +2,9 @@
 
 A demo application of an e-commerce web application.
 
+Here's a hosted version of the web app
+[live link](https://blinqpay-iota.vercel.app/)
+
 ## Installation
 
 Install blinqpay with yarn
