@@ -1,8 +1,0 @@
-{
-  "extends": ["next/core-web-vitals", "plugin:react/recommended", "airbnb", "plugin:react/jsx-runtime"],
-  "rules": {
-    "max-len": ["error", { "code": 80 }],
-    "react/prop-types": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
-  }
-}
