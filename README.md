@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Description
 
-## Getting Started
+A demo application of an e-commerce web application.
 
-First, run the development server:
+## Installation
+
+Install blinqpay with yarn
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/GabOsaz/blinqpay.git
+  cd blinqpay
+  yarn
+  yarn run dev
+```
+Install blinqpay with npm
+
+```bash
+  git clone https://github.com/GabOsaz/blinqpay.git
+  cd blinqpay
+  npm install
+  npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Fetch data from a demo e-commerce API
+- Server-side render the data fetching components for speed and good SEO
+- Add to cart, remove from cart, update cart, clear cart, calculate total price of cart items
+- Styled to fit moderately across mobile, tabs, laptops and desktop devices.
+- Compatible with default system theme appearances: light and darkmodes.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Client:** Nextjs/Typescript, TailwindCSS, Redux Toolkit.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
