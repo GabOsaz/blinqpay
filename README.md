@@ -33,6 +33,9 @@ Install blinqpay with npm
 - Styled to fit moderately across mobile, tabs, laptops and desktop devices.
 - Compatible with default system theme appearances: light and darkmodes.
 
+## Design Pattern
+- MVC
+
 ## Tech Stack
 
 **Client:** Nextjs/Typescript, TailwindCSS, Redux Toolkit.
